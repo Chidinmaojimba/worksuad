@@ -1,9 +1,13 @@
 import AuthLayout from "../components/AuthLayout";
+import wkimg from "../assets/wkimg.png"; 
 import { Link } from "react-router-dom";
 
 export default function ForgotPassword() {
   return (
     <AuthLayout title="Forgot Password">
+      <div className="auth-logo">
+               <img src={wkimg} alt="Logo" className="auth-logo" />
+      </div>
       <form className="auth-form">
         <input placeholder="Reset token" />
 

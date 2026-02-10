@@ -14,7 +14,9 @@ export default function Login() {
          <img src={wkimg} alt="Logo" className="auth-logo" />
        </div>
       <form className="auth-form">
+        <label>Email address</label>
         <input type="email" placeholder="Email address" />
+        <label>Password</label>
         <input type="password" placeholder="Password" />
 
         <div className="row">
