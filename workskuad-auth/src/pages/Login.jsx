@@ -20,16 +20,19 @@ export default function Login() {
         <input type="password" placeholder="Password" />
 
         <div className="row">
+          <div style={{display: "flex", alignItems: "center", gap: "10px"}}>
           <label className="checkbox">
-            <input type="checkbox" /> Keep me logged in
+            <input type="checkbox"  style={{margin: 0, padding: 0}}/> 
           </label>
-          <Link to="/forgot-password">Forgot password</Link>
+          <p style={{fontSize: "14px", padding: 0, margin: 0}}>Keep me logged in</p>
+          </div>
+          <Link className="primary-color text-sm font-semibold" to="/forgot-password">Forgot password</Link>
         </div>
 
         <button className="primary-btn">Log in</button>
 
         <p className="switch">
-          Don’t have an account? <Link to="/signup">Sign up</Link>
+          Don’t have an account? <Link className="primary-color text-sm font-semibold" to="/signup">Sign up</Link>
         </p>
       </form>
     </AuthLayout>
