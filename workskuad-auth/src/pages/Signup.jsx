@@ -10,9 +10,9 @@ export default function Signup() {
       </div>
       <form className="auth-form">
         <label>First name*</label>
-        <input placeholder="Enter your first name" />
+        <input type="text" placeholder="Enter your first name" />
         <label>Last name*</label>
-        <input placeholder="Enter your last name" />
+        <input type="text" placeholder="Enter your last name" />
         <label>Email*</label>
         <input type="email" placeholder="Enter your Email address" />
         <label>Password*</label>

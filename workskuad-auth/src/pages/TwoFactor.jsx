@@ -1,6 +1,6 @@
 import AuthLayout from "../components/AuthLayout";
 import wkimg from "../assets/wkimg.png"; 
-
+import { Link } from "react-router-dom";
 export default function TwoFactor() {
   return (
     <AuthLayout title="Two factor authentication">
@@ -10,16 +10,16 @@ export default function TwoFactor() {
       <p style={{fontSize: "14px", padding: 0, margin: 0}}> Please put in the verification sent to your phone or authenticator app</p><br></br>
       <form className="auth-form">
         <label>Verification code*</label>
-        <input placeholder="Verification code" />
+        <input type="text" placeholder="Verification code" />
 
-       {/* <div className="outline-row">
+       <div className="outline-row">
           <Link className="outline-btn" to="/forgot-password">Back</Link>
-          <Link className="outlineblue-btn" to="/verify>Continue</Link>
-        </div> */}
+          <Link className="outlineblue-btn" to="/verify">Continue</Link>
+        </div>
 
-       {/* <p className="switch">
+       <p className="switch">
          Don’t have access to your authenticator app or phone number? <Link to="/forgot-password">Click here to reset</Link>
-        </p>   */}
+        </p>  
       </form>
     </AuthLayout>
   );

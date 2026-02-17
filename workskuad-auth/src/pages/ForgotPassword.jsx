@@ -11,7 +11,7 @@ export default function ForgotPassword() {
       <p style={{fontSize: "14px", padding: 0, margin: 0}}> Please enter your email address, and click continue to request password reset</p><br></br>
       <form className="auth-form">
         <label>Email Address*</label>
-        <input placeholder="Email Address" />
+        <input type="email" placeholder="Email Address" />
 
         <div className="outline-row">
           <Link className="outline-btn" to="/">Back</Link>
