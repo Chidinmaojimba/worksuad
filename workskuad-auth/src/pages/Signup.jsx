@@ -10,18 +10,22 @@ export default function Signup() {
       </div>
       <form className="auth-form">
         <label>First name*</label>
-        <input placeholder="First name" />
+        <input placeholder="Enter your first name" />
         <label>Last name*</label>
-        <input placeholder="Last name" />
+        <input placeholder="Enter your last name" />
         <label>Email*</label>
-        <input type="email" placeholder="Email address" />
+        <input type="email" placeholder="Enter your Email address" />
         <label>Password*</label>
-        <input type="password" placeholder="Password" />
+        <input type="password" placeholder=" Enter your Password" />
 
+        <div className="row">
+      <div style={{display: "flex", alignItems: "center", gap: "10px"}}>
         <label className="checkbox">
-          <input type="checkbox" /> I have read and agree to worksuad Terms & Privacy Policy
+          <input type="checkbox"  style={{margin: 0, padding: 0, fontSize: "8px"}}/>
+          <p style={{fontSize: "14px", padding: 0, margin: 0}}> I have read and agree to worksuad<Link to="/"> Terms</Link> and  <Link to="/">Privacy Policy</Link></p>
         </label>
-
+        </div>
+      </div>
         <button className="primary-btn">Sign up</button>
 
         <p className="switch">

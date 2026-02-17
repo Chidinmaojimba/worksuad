@@ -7,15 +7,19 @@ export default function TwoFactor() {
       <div className="auth-logo">
                <img src={wkimg} alt="Logo" className="auth-logo" />
       </div>
+      <p style={{fontSize: "14px", padding: 0, margin: 0}}> Please put in the verification sent to your phone or authenticator app</p><br></br>
       <form className="auth-form">
+        <label>Verification code*</label>
         <input placeholder="Verification code" />
 
-        <div className="row">
-          <button className="outline-btn">Back</button>
-          <button className="primary-btn">Continue</button>
-        </div>
+       {/* <div className="outline-row">
+          <Link className="outline-btn" to="/forgot-password">Back</Link>
+          <Link className="outlineblue-btn" to="/verify>Continue</Link>
+        </div> */}
 
-        <p className="hint">Didn’t get a code? Reset</p>
+       {/* <p className="switch">
+         Don’t have access to your authenticator app or phone number? <Link to="/forgot-password">Click here to reset</Link>
+        </p>   */}
       </form>
     </AuthLayout>
   );

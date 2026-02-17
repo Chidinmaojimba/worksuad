@@ -7,16 +7,16 @@ export default function Login() {
 
     <AuthLayout
       title="Welcome back"
-      subtitle="Please enter your details"
+      subtitle="Welcome back! Please enter your details."
     >
 
       <div className="auth-logo">
          <img src={wkimg} alt="Logo" className="auth-logo" />
        </div>
       <form className="auth-form">
-        <label>Email address</label>
+        <label>Email address*</label>
         <input type="email" placeholder="Email address" />
-        <label>Password</label>
+        <label>Password*</label>
         <input type="password" placeholder="Password" />
 
         <div className="row">

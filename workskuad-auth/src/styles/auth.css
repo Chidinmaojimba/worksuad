@@ -5,7 +5,7 @@
 
 .auth-container {
   min-height: 100vh;
-  background: #f8fafc;
+  /* background: #f8fafc; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,7 +48,7 @@
   width: 100%;
   padding: 12px;
   margin-bottom: 14px;
-  border: 1px solid #e5e7eb;
+  border: 2px solid #e5e7eb;
   border-radius: 8px;
   font-size: 14px;
 }
@@ -86,6 +86,11 @@ a:link {
   cursor: pointer;
 }
 
+.outline-row {
+  display: flex;
+  gap: 10px;  
+}
+
 .outline-btn {
   padding: 10px 18px;
   border: 1px solid #d1d5db;
@@ -93,6 +98,19 @@ a:link {
   background: transparent;
   cursor: pointer;
   font-size: 14px;
+  width: 50%;
+  text-align: center;
+}
+
+.outlineblue-btn {
+  padding: 10px 18px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  background: #2563eb;
+  cursor: pointer;
+  font-size: 14px;
+  width: 50%;
+  color: white;
 }
 
 .switch {

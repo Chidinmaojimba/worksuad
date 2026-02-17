@@ -8,12 +8,14 @@ export default function ForgotPassword() {
       <div className="auth-logo">
                <img src={wkimg} alt="Logo" className="auth-logo" />
       </div>
+      <p style={{fontSize: "14px", padding: 0, margin: 0}}> Please enter your email address, and click continue to request password reset</p><br></br>
       <form className="auth-form">
-        <input placeholder="Reset token" />
+        <label>Email Address*</label>
+        <input placeholder="Email Address" />
 
-        <div className="row">
+        <div className="outline-row">
           <Link className="outline-btn" to="/">Back</Link>
-          <button className="primary-btn">Continue</button>
+          <button className="outlineblue-btn">Continue</button>
         </div>
 
         <p className="hint">Didn’t receive an email? Retry</p>
