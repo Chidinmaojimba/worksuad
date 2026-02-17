@@ -13,13 +13,14 @@
 }
 
 .auth-card {
-  width: 100%;
+   width: 100%; 
   max-width: 380px;
   background: #ffffff;
   padding: 2rem;
   border-radius: 12px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.06);
 }
+
 
 .auth-logo {
   position: absolute;
@@ -69,7 +70,6 @@
   font-size: 13px;
   display: flex;
  
-  
 }
 
 a:link {
@@ -102,6 +102,7 @@ a:link {
   font-size: 14px;
   width: 50%;
   text-align: center;
+  color: black;
 }
 
 .outlineblue-btn {
@@ -142,9 +143,9 @@ a:link {
   }
 }
 
-/* 💻 Desktop */
+
 @media (min-width: 1024px) {
   .auth-card {
-    max-width: 440px;
+    max-width: 600px;
   }
 }

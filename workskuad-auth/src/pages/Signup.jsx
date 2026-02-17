@@ -21,8 +21,8 @@ export default function Signup() {
         <div className="row">
       <div style={{display: "flex", alignItems: "center", gap: "10px"}}>
         <label className="checkbox">
-          <input type="checkbox"  style={{margin: 0, padding: 0, fontSize: "8px"}}/>
-          <p style={{fontSize: "14px", padding: 0, margin: 0}}> I have read and agree to worksuad<Link to="/"> Terms</Link> and  <Link to="/">Privacy Policy</Link></p>
+          <input type="checkbox"  style={{margin: 0, padding: 0, fontSize: "8px" }}/>
+          <p style={{fontSize: "14px", padding: 0, margin: 0 , marginLeft: "5px" }}> I have read and agree to worksuad<Link to="/"> Terms</Link> and  <Link to="/">Privacy Policy</Link></p>
         </label>
         </div>
       </div>

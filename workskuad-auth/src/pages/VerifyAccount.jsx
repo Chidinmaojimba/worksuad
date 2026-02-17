@@ -9,8 +9,10 @@ export default function VerifyAccount() {
        </div>
       <form className="auth-form">
         <input placeholder="Verification code" />
-        <button className="primary-btn">Verify account</button>
-        <p className="hint">Didn’t receive an email? Retry</p>
+        <button className="primary-btn">Verify account</button>  
+       <p className="switch">
+         Didn’t receive an email? <Link to="/verify">Retry</Link>
+       </p> 
       </form>
     </AuthLayout>
   );

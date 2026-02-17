@@ -14,7 +14,7 @@ export default function TwoFactor() {
 
        <div className="outline-row">
           <Link className="outline-btn" to="/forgot-password">Back</Link>
-          <Link className="outlineblue-btn" to="/verify">Continue</Link>
+          <button className="outlineblue-btn">Continue</button>
         </div>
 
        <p className="switch">

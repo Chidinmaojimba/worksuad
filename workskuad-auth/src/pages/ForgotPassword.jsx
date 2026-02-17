@@ -17,8 +17,10 @@ export default function ForgotPassword() {
           <Link className="outline-btn" to="/">Back</Link>
           <button className="outlineblue-btn">Continue</button>
         </div>
+       <p className="switch">
+         Didn’t receive an email? <Link to="/forgot-password">Retry</Link>
+       </p> 
 
-        <p className="hint">Didn’t receive an email? Retry</p>
       </form>
     </AuthLayout>
   );
